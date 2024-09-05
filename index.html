@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>profile</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page">
+        <div class="page-top">
+            <div class="user-name">squid_tunes</div>
+            <div class="three-dots"></div>
+        </div>
+
+        <div class="counts-section">
+            <div class="profile-pic"></div>
+
+            <div class="post-count count-flex">
+                <div class="post-count-number counts">13</div>
+                <div class="count-text">posts</div>
+            </div>
+
+            <div class="follower-count count-flex">
+                <div class="follower-count-number counts">707</div>
+                <div class="count-text">followers</div>
+            </div>
+
+            <div class="following-count count-flex">
+                <div class="following-count-number counts">664</div>
+                <div class="count-text">following</div>
+            </div>
+        </div>
+
+        <div class="story">
+            <div class="loading-bar">
+                <div class="progress"></div>
+            </div>
+
+            <div class="info">
+                <div class="story-right">
+                    <div class="profile-img"></div>
+                    <div class="profile-name">squid_tunes</div>
+                    <div class="time">9h</div>
+                </div>
+                <div class="three-dots"></div>
+            </div>
+
+            <div class="interaction">
+                <input type="text" placeholder="Message">
+                <div class="like-story story-actions">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="transparent"><path d="M16.5 3C19.5376 3 22 5.5 22 9C22 16 14.5 20 12 21.5C9.5 20 2 16 2 9C2 5.5 4.5 3 7.5 3C9.35997 3 11 4 12 5C13 4 14.64 3 16.5 3Z" stroke = "rgb(230, 230, 230)"></path></svg>
+                </div>
+                <div class="share-story story-actions">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="transparent"><path d="M1.94619 9.31543C1.42365 9.14125 1.41953 8.86022 1.95694 8.68108L21.0431 2.31901C21.5716 2.14285 21.8747 2.43866 21.7266 2.95694L16.2734 22.0432C16.1224 22.5716 15.8178 22.59 15.5945 22.0876L12 14L18 6.00005L10 12L1.94619 9.31543Z" stroke="rgb(230, 230, 230)"></path></svg>
+                </div>
+            </div>
+        </div>
+
+        <div class="name-and-bio">
+            <div class="name">Squidward</div>
+            <div class="bio">
+                🦑 | Squidward Tentacles<br>
+                💤 Always ready for a nap</div>
+        </div>
+
+        <div class="buttons-section">
+            <button class="follow-button button">Follow</button>
+
+            <button class="message-button button">Message</button>
+
+            <button class="more-button">
+                <img src="images/plus-profile.png" alt="">
+            </button>
+        </div>
+
+        <div class="navigator">
+            <div class="post-icon navigator-icon">
+                <img src="images/post-icon.webp" alt="">
+            </div>
+            <div class="reels-icon navigator-icon">
+                <img src="images/reels-icon.webp" alt="">
+            </div>
+            <div class="tagged-icon navigator-icon">
+                <img src="images/tagged-icon.webp" alt="">
+            </div>
+        </div>
+
+        <div class="post-wrapper"></div>
+
+        <div class="footer">
+            <div class="home-image footer-icon"></div>
+            <div class="message-img footer-icon"></div>
+            <div class="add-post-img footer-icon"></div>
+            <div class="reels-img footer-icon"></div>
+            <div class="profile-img footer-icon"></div>
+        </div>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="posts.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
